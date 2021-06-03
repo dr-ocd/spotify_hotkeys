@@ -1,5 +1,5 @@
 # spotify_hotkeys
-A way to control your Spotify music from any window using hotkeys and AutoHotKey!
+A way to control your spotify music from any window using hotkeys and AutoHotKey!
 
 AutoHotKey is __REQUIRED__ for this to work! (although, you can convert the AHK script to an exe file using the converter)
 
