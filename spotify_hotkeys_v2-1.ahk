@@ -9,6 +9,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 DetectHiddenWindows, On
 #SingleInstance, Force ;removes the silly "already running" message
 
+;tooltip for system tray icon, highly recomend to change these to match the hotkeys
+#Persistent
+Menu, Tray, Tip , Spotify Hotkeys`nCtrl+F1: Pause`nCtrl+F2: Previous`nCtrl+F3: Next`nCtrl+Esc: Terminate
+
 failMessage() { ;remove the block comments to activate feature! 
 	/*
 	if (ErrorLevel = "FAIL") {
